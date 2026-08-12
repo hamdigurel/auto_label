@@ -1,0 +1,14 @@
+# Python sanal ortamı - GitHub'a asla yüklenmemeli
+venv/
+
+# Model ağırlıkları - büyük dosyalar, gerekirse ayrı depoya (Drive vb.) konur
+weights/
+
+# Çıktı klasörü - tekrar üretilebilir, gerek yok
+cikti/
+
+# Video dosyaları - büyük boyutlu, repo'ya gerek yok
+*.mp4
+
+# Eğitilmiş model dosyaları - büyük boyutlu
+*.pt
